@@ -18,5 +18,8 @@
     },
     "autoload": {
         "psr-0": {"Hautelook": "src/"}
+    },
+    "replace": {
+        "hautelook/phpass": "0.3.*"
     }
 }
