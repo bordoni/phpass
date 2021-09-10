@@ -1,8 +1,8 @@
+### This repository is a fork from the original [hautelook/phpass](https://github.com/hautelook/phpass) which seems to have been deleted on _2021-09-09_.
+
+
 Openwall Phpass, modernized
 ===========================
-
-[![Build Status](https://secure.travis-ci.org/hautelook/phpass.png?branch=master)](http://travis-ci.org/hautelook/phpass)
-[![HHVM Status](http://hhvm.h4cc.de/badge/hautelook/phpass.png)](http://hhvm.h4cc.de/package/hautelook/phpass)
 
 This is Openwall's [Phpass](http://openwall.com/phpass/), based on the 0.3 release, but modernized slightly:
 
@@ -19,7 +19,7 @@ Add this requirement to your `composer.json` file and run `composer.phar install
 
     {
         "require": {
-            "hautelook/phpass": "dev-master"
+            "bordoni/phpass": "dev-main"
         }
     }
 
