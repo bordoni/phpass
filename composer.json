@@ -10,7 +10,7 @@
     "password",
     "security"
   ],
-  "homepage": "http://github.com/hautelook/phpass/",
+  "homepage": "http://github.com/bordoni/phpass/",
   "authors": [
     {
       "name": "Solar Designer",
@@ -24,7 +24,7 @@
     }
   ],
   "require": {
-    "php": ">=5.3.3"
+    "php": ">=5.6.0"
   },
   "autoload": {
     "psr-0": {
@@ -32,6 +32,6 @@
     }
   },
   "replace": {
-    "hautelook/phpass": "0.3.*"
+    "hautelook/phpass": "1.1.0"
   }
 }

@@ -13,6 +13,14 @@ This is Openwall's [Phpass](http://openwall.com/phpass/), based on the 0.3 relea
 
 The changes are minimal and only stylistic. The source code is in the public domain. We claim no ownership, but needed it for one of our projects, and wanted to make it available to other people as well. 
 
+* `1.1.0` - Modified to add `random_bytes` hook function.
+* `1.0.0` - Modified to use [hash_equals](http://php.net/hash_equals) to be resistant to timing attacks. This requires `php >= 5.6.0`.
+* `0.3.x` - Very close to the original version. Requires `php >= 5.3.3`.
+
+## Customizing the Source of Randomness
+
+In version `1.1.0`, the `get_random_bytes` function checks for the presence of a `random_bytes` function. If a `random_bytes` function is callable, then `random_bytes` will be used as the source for random bytes output. Otherwise, the original `get_random_bytes` code will be used.
+
 ## Installation ##
 
 Add this requirement to your `composer.json` file and run `composer.phar install`:
